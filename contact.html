@@ -1,4 +1,4 @@
-﻿
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -436,11 +436,11 @@
 <section class="py-110 position-relative overflow-hidden">
     <div class="container">
         <!-- Contact Cards -->
-        <div class="row gy-4 tw-mb-80-px">
-            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-duration="600" data-aos-delay="100">
+        <div class="row gy-4 tw-mb-80-px justify-content-center">
+            <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-duration="600" data-aos-delay="100">
                 <div class="bg-main-50 tw-p-10 tw-rounded-3xl text-center h-100 group-item">
                     <div class="contact-icon-circle mx-auto tw-mb-6">
-                        <i class="ph-fill ph-phone-call tw-text-4xl text-main-600"></i>
+                        <i class="ph-fill ph-phone-call text-main-600" style="font-size: 64px;"></i>
                     </div>
                     <h3 class="fw-bold text-neutral-950 tw-mb-4 h5">Phone Number</h3>
                     <p class="tw-text-base text-paragraph-500 tw-mb-2">Call us for any inquiry</p>
@@ -450,10 +450,10 @@
                 </div>
             </div>
 
-            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-duration="600" data-aos-delay="200">
+            <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-duration="600" data-aos-delay="200">
                 <div class="bg-primary-50 tw-p-10 tw-rounded-3xl text-center h-100 group-item">
                     <div class="contact-icon-circle contact-icon-circle-two mx-auto tw-mb-6">
-                        <i class="ph-fill ph-envelope-open tw-text-4xl text-main-two-600"></i>
+                        <i class="ph-fill ph-envelope-open text-main-two-600" style="font-size: 64px;"></i>
                     </div>
                     <h3 class="fw-bold text-neutral-950 tw-mb-4 h5">Email Address</h3>
                     <p class="tw-text-base text-paragraph-500 tw-mb-2">Send us a message any time</p>
@@ -461,14 +461,25 @@
                 </div>
             </div>
 
-            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-duration="600" data-aos-delay="300">
+            <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-duration="600" data-aos-delay="300">
                 <div class="bg-main-two-50 tw-p-10 tw-rounded-3xl text-center h-100 group-item">
                     <div class="contact-icon-circle contact-icon-circle-three mx-auto tw-mb-6">
-                        <i class="ph-fill ph-map-pin tw-text-4xl text-main-600"></i>
+                        <i class="ph-fill ph-map-pin text-main-600" style="font-size: 64px;"></i>
                     </div>
                     <h3 class="fw-bold text-neutral-950 tw-mb-4 h5">Office Location</h3>
                     <p class="tw-text-base text-paragraph-500 tw-mb-2">Visit our center in Madurai</p>
                     <span class="fw-bold text-neutral-800">T146, Near Ellis Nagar, Madurai-625016</span>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-duration="600" data-aos-delay="400">
+                <div class="bg-warning-50 tw-p-10 tw-rounded-3xl text-center h-100 group-item" style="background-color: #fffbeb;">
+                    <div class="contact-icon-circle contact-icon-circle-four mx-auto tw-mb-6">
+                        <i class="ph-fill ph-clock text-warning" style="font-size: 64px; color: #f59e0b;"></i>
+                    </div>
+                    <h3 class="fw-bold text-neutral-950 tw-mb-4 h5">Working Hours</h3>
+                    <p class="tw-text-base text-paragraph-500 tw-mb-2">Weekdays: 9:00 AM - 8:00 PM</p>
+                    <span class="fw-bold text-neutral-800">Sunday: 10:00 AM - 1:00 PM</span>
                 </div>
             </div>
         </div>
@@ -508,8 +519,8 @@
 
     <style>
         .contact-icon-circle {
-            width: 95px;
-            height: 95px;
+            width: 120px;
+            height: 120px;
             background: #fff;
             border-radius: 50%;
             display: flex;
@@ -536,9 +547,17 @@
                 0 18px 35px rgba(255, 120, 80, 0.08);
         }
 
+        .contact-icon-circle-four {
+            box-shadow:
+                0 0 0 12px rgba(255, 255, 255, 0.55),
+                0 0 0 24px rgba(254, 252, 232, 0.35),
+                0 18px 35px rgba(245, 158, 11, 0.08);
+        }
+
         .group-item:hover .contact-icon-circle,
         .group-item:hover .contact-icon-circle-two,
-        .group-item:hover .contact-icon-circle-three {
+        .group-item:hover .contact-icon-circle-three,
+        .group-item:hover .contact-icon-circle-four {
             transform: translateY(-8px) scale(1.05);
         }
     </style>

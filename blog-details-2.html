@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -57,7 +57,7 @@
   </div>
   <!-- ==================== Scroll to Top End Here ==================== -->
 
-  <!-- ==================== Mobile Menu Start Here ==================== -->
+ <!-- ==================== Mobile Menu Start Here ==================== -->
 <div class="mobile-menu d-xl-none d-block scroll-sm position-fixed bg-white tw-w-300-px tw-h-screen overflow-y-auto tw-p-6 tw-z-999 tw--translate-x-full tw-pb-68 ">
 
     <button type="button" class="close-button position-absolute tw-end-0 top-0 tw-me-2 tw-mt-2 tw-w-605 tw-h-605 rounded-circle d-flex justify-content-center align-items-center text-white bg-neutral-500 hover-bg-neutral-900 hover-text-white"> 
@@ -144,28 +144,24 @@
 <section class="breadcrumb about-hero position-relative overflow-hidden">
     <!-- Background Overlay -->
     <div class="about-overlay"></div>
-
-    <!-- Decorative Circles -->
     <div class="about-circle about-circle-one"></div>
     <div class="about-circle about-circle-two"></div>
-
+    
     <div class="container position-relative z-2">
-        <div class="row justify-content-center align-items-center text-center">
+        <div class="row align-items-center justify-content-center text-center">
             <div class="col-lg-8">
                 <div class="about-content mx-auto">
-
                     <span class="about-badge justify-content-center">
                         <i class="ph-bold ph-pencil-simple"></i>
                         Mind Wave Blog
                     </span>
 
                     <h1 class="about-title">
-                        Inspiring Stories and
-                        <span>Helpful Insights</span>
+                        Insights & <span>Updates</span>
                     </h1>
 
                     <p class="about-description mx-auto">
-                        Explore expert tips, therapy guidance, learning strategies, parenting advice, and inspiring success stories designed to support every child’s growth and development journey.
+                        Explore expert tips, therapy guidance, learning strategies, parenting advice, and inspiring success stories designed to support every child's growth and development journey.
                     </p>
 
                     <div class="d-flex align-items-center justify-content-center flex-wrap tw-gap-3 tw-mb-7">
@@ -173,12 +169,10 @@
                             <i class="ph-bold ph-book-open-text"></i>
                             <span>Learning Tips</span>
                         </div>
-
                         <div class="hero-feature-box">
                             <i class="ph-bold ph-heart"></i>
                             <span>Parenting Advice</span>
                         </div>
-
                         <div class="hero-feature-box">
                             <i class="ph-bold ph-lightbulb"></i>
                             <span>Therapy Insights</span>
@@ -196,7 +190,6 @@
                             <span>Blog Details</span>
                         </li>
                     </ul>
-
                 </div>
             </div>
         </div>
@@ -206,10 +199,8 @@
         .about-hero {
             position: relative;
             background: url('assets/images/bg/occu.jpg') center center / cover no-repeat;
-            padding: 140px 0 120px;
+            padding: 120px 0 100px;
             min-height: 600px;
-            display: flex;
-            align-items: center;
         }
 
         .about-overlay {
@@ -225,46 +216,13 @@
             z-index: 0;
         }
 
-        .about-content {
-            position: relative;
-            z-index: 3;
-            max-width: 700px;
-        }
-
-        .about-badge {
-            display: inline-flex;
-            align-items: center;
-            gap: 10px;
-            background: rgba(255,255,255,0.12);
-            border: 1px solid rgba(255,255,255,0.2);
-            backdrop-filter: blur(10px);
-            padding: 10px 22px;
-            border-radius: 50px;
-            color: #ffffff;
-            font-weight: 700;
-            font-size: 14px;
-            margin-bottom: 24px;
-        }
-
-        .about-title {
-            font-size: 58px;
-            font-weight: 900;
-            line-height: 1.15;
-            color: #ffffff;
-            margin-bottom: 20px;
-        }
-
-        .about-title span {
-            display: block;
-            color: #60a5fa;
-        }
-
         .about-description {
             max-width: 620px;
             font-size: 17px;
             line-height: 1.8;
             color: rgba(255,255,255,0.82);
             margin-bottom: 35px;
+            text-align: center;
         }
 
         .hero-feature-box {
@@ -292,17 +250,51 @@
             color: #60a5fa;
         }
 
+        .about-content {
+            position: relative;
+            z-index: 3;
+            max-width: 640px;
+        }
+
+        .about-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            background: rgba(255,255,255,0.12);
+            border: 1px solid rgba(255,255,255,0.2);
+            backdrop-filter: blur(10px);
+            padding: 10px 20px;
+            border-radius: 50px;
+            color: #ffffff;
+            font-weight: 700;
+            font-size: 14px;
+            margin-bottom: 20px;
+        }
+
+        .about-title {
+            font-size: 56px;
+            font-weight: 900;
+            line-height: 1.1;
+            color: #ffffff;
+            margin-bottom: 18px;
+        }
+
+        .about-title span {
+            display: block;
+            color: #60a5fa;
+        }
+
         .about-breadcrumb {
             list-style: none;
         }
 
         .about-breadcrumb li {
-            color: #fbbf24;
+            color: #f2a013;
             font-weight: 600;
         }
 
         .about-breadcrumb a {
-            color: #fbbf24;
+            color: #eeac14;
             text-decoration: none;
             transition: 0.3s ease;
         }
@@ -313,7 +305,7 @@
 
         .about-breadcrumb .divider,
         .about-breadcrumb span {
-            color: rgba(255,255,255,0.75);
+            color: rgba(255,255,255,0.7);
         }
 
         .about-circle {
@@ -339,16 +331,12 @@
 
         @media (max-width: 991px) {
             .about-hero {
-                padding: 100px 0 80px;
+                padding: 100px 0 70px;
                 min-height: auto;
             }
 
             .about-title {
                 font-size: 42px;
-            }
-
-            .about-description {
-                font-size: 15px;
             }
         }
 
@@ -356,19 +344,10 @@
             .about-title {
                 font-size: 34px;
             }
-
-            .about-description {
-                font-size: 14px;
-                line-height: 1.7;
-            }
-
-            .hero-feature-box {
-                width: 100%;
-                justify-content: center;
-            }
         }
     </style>
-</section><!-- ================================ page header end ================================ -->
+</section>
+<!-- ================================ page header end ================================ -->
 
 <!-- ======================= Blog Details Section Start ======================= -->
 <section class="py-110">
@@ -399,6 +378,35 @@
 
                     <!-- Blog Content -->
 
+                    <div class="tw-mb-8">
+                        <div class="d-flex gap-4 flex-nowrap overflow-auto pb-4" style="scrollbar-width: thin; scrollbar-color: #60a5fa #f1f5f9; -webkit-overflow-scrolling: touch;">
+                            <div class="card border border-2 border-neutral-100 shadow-sm flex-shrink-0 rounded-4" style="width: 75%; max-width: 350px;">
+                                <div class="card-body p-2">
+                                    <img src="assets/images/blogs/mindwaveposter1.png" alt="poster 1" class="img-fluid rounded-3 w-100" style="object-fit: contain;">
+                                </div>
+                            </div>
+                            <div class="card border border-2 border-neutral-100 shadow-sm flex-shrink-0 rounded-4" style="width: 75%; max-width: 350px;">
+                                <div class="card-body p-2">
+                                    <img src="assets/images/blogs/Mindwaveposter2.png" alt="poster 2" class="img-fluid rounded-3 w-100" style="object-fit: contain;">
+                                </div>
+                            </div>
+                            <div class="card border border-2 border-neutral-100 shadow-sm flex-shrink-0 rounded-4" style="width: 75%; max-width: 350px;">
+                                <div class="card-body p-2">
+                                    <img src="assets/images/blogs/mindwaveposter3.png" alt="poster 3" class="img-fluid rounded-3 w-100" style="object-fit: contain;">
+                                </div>
+                            </div>
+                            <div class="card border border-2 border-neutral-100 shadow-sm flex-shrink-0 rounded-4" style="width: 75%; max-width: 350px;">
+                                <div class="card-body p-2">
+                                    <img src="assets/images/blogs/mindwaveposter4.png" alt="poster 4" class="img-fluid rounded-3 w-100" style="object-fit: contain;">
+                                </div>
+                            </div>
+                            <div class="card border border-2 border-neutral-100 shadow-sm flex-shrink-0 rounded-4" style="width: 75%; max-width: 350px;">
+                                <div class="card-body p-2">
+                                    <img src="assets/images/blogs/mindwaveposter5.png" alt="poster 5" class="img-fluid rounded-3 w-100" style="object-fit: contain;">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                     <div class="tw-text-4 text-paragraph-600 line-height-32-px">
                         <p class="tw-mb-5">
                             Early childhood education is fundamentally about discovery. When children step into a supportive environment tailored to their developmental needs, the joy of learning naturally blossoms.
@@ -501,7 +509,7 @@
                   <a href="https://www.youtube.com/@MindWavesLearningCentre" class="tw-w-9 tw-h-9 bg-white text-black tw-rounded-lg hover-bg-main-600 hover-text-white tw-duration-300 tw-text-405 d-flex align-items-center justify-content-center">
                     <i class="ph-fill ph-youtube-logo"></i>
                   </a>
-                 </li>           
+                </li>           
               </ul>
             </div>
           </div>
@@ -563,7 +571,7 @@
         <!-- Center: Copyright -->
         <span class="fw-normal tw-text-4 text-black text-center order-3 order-lg-2">&copy; 2026 by Mind Wave special learning center all rights reserved</span>
         <div class="d-flex align-items-center tw-gap-4 flex-wrap">
-          <a href="terms-condition.html" class="fw-normal tw-text-4 text-black hover-text-black hover-underline tw-duration-300">
+         <a href="terms-condition.html" class="fw-normal tw-text-4 text-black hover-text-black hover-underline tw-duration-300">
   Terms & Condition
 </a>
 

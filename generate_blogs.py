@@ -28,6 +28,35 @@ blogs_data = [
         "title": "How to Prepare Your Child for Their First Day",
         "video": "https://www.instagram.com/reel/CxRUyfFh7Ue/embed/",
         "content": """
+                    <div class="tw-mb-8">
+                        <div class="d-flex gap-4 flex-nowrap overflow-auto pb-4" style="scrollbar-width: thin; scrollbar-color: #60a5fa #f1f5f9; -webkit-overflow-scrolling: touch;">
+                            <div class="card border border-2 border-neutral-100 shadow-sm flex-shrink-0 rounded-4" style="width: 75%; max-width: 350px;">
+                                <div class="card-body p-2">
+                                    <img src="assets/images/blogs/mindwaveposter1.png" alt="poster 1" class="img-fluid rounded-3 w-100" style="object-fit: contain;">
+                                </div>
+                            </div>
+                            <div class="card border border-2 border-neutral-100 shadow-sm flex-shrink-0 rounded-4" style="width: 75%; max-width: 350px;">
+                                <div class="card-body p-2">
+                                    <img src="assets/images/blogs/Mindwaveposter2.png" alt="poster 2" class="img-fluid rounded-3 w-100" style="object-fit: contain;">
+                                </div>
+                            </div>
+                            <div class="card border border-2 border-neutral-100 shadow-sm flex-shrink-0 rounded-4" style="width: 75%; max-width: 350px;">
+                                <div class="card-body p-2">
+                                    <img src="assets/images/blogs/mindwaveposter3.png" alt="poster 3" class="img-fluid rounded-3 w-100" style="object-fit: contain;">
+                                </div>
+                            </div>
+                            <div class="card border border-2 border-neutral-100 shadow-sm flex-shrink-0 rounded-4" style="width: 75%; max-width: 350px;">
+                                <div class="card-body p-2">
+                                    <img src="assets/images/blogs/mindwaveposter4.png" alt="poster 4" class="img-fluid rounded-3 w-100" style="object-fit: contain;">
+                                </div>
+                            </div>
+                            <div class="card border border-2 border-neutral-100 shadow-sm flex-shrink-0 rounded-4" style="width: 75%; max-width: 350px;">
+                                <div class="card-body p-2">
+                                    <img src="assets/images/blogs/mindwaveposter5.png" alt="poster 5" class="img-fluid rounded-3 w-100" style="object-fit: contain;">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                     <div class="tw-text-4 text-paragraph-600 line-height-32-px">
                         <p class="tw-mb-5">
                             Preparing your child for their first day at a new learning center or school can feel overwhelming, but a few simple steps can make all the difference. Emphasizing routine and open communication ensures your child feels secure.
@@ -55,6 +84,35 @@ blogs_data = [
         "title": "Discovering the Joys of Child Kindergarten...",
         "video": "https://www.instagram.com/reel/DM0ZQeeSSff/embed/",
         "content": """
+                    <div class="tw-mb-8">
+                        <div class="d-flex gap-4 flex-nowrap overflow-auto pb-4" style="scrollbar-width: thin; scrollbar-color: #60a5fa #f1f5f9; -webkit-overflow-scrolling: touch;">
+                            <div class="card border border-2 border-neutral-100 shadow-sm flex-shrink-0 rounded-4" style="width: 75%; max-width: 350px;">
+                                <div class="card-body p-2">
+                                    <img src="assets/images/blogs/mindwaveposter1.png" alt="poster 1" class="img-fluid rounded-3 w-100" style="object-fit: contain;">
+                                </div>
+                            </div>
+                            <div class="card border border-2 border-neutral-100 shadow-sm flex-shrink-0 rounded-4" style="width: 75%; max-width: 350px;">
+                                <div class="card-body p-2">
+                                    <img src="assets/images/blogs/Mindwaveposter2.png" alt="poster 2" class="img-fluid rounded-3 w-100" style="object-fit: contain;">
+                                </div>
+                            </div>
+                            <div class="card border border-2 border-neutral-100 shadow-sm flex-shrink-0 rounded-4" style="width: 75%; max-width: 350px;">
+                                <div class="card-body p-2">
+                                    <img src="assets/images/blogs/mindwaveposter3.png" alt="poster 3" class="img-fluid rounded-3 w-100" style="object-fit: contain;">
+                                </div>
+                            </div>
+                            <div class="card border border-2 border-neutral-100 shadow-sm flex-shrink-0 rounded-4" style="width: 75%; max-width: 350px;">
+                                <div class="card-body p-2">
+                                    <img src="assets/images/blogs/mindwaveposter4.png" alt="poster 4" class="img-fluid rounded-3 w-100" style="object-fit: contain;">
+                                </div>
+                            </div>
+                            <div class="card border border-2 border-neutral-100 shadow-sm flex-shrink-0 rounded-4" style="width: 75%; max-width: 350px;">
+                                <div class="card-body p-2">
+                                    <img src="assets/images/blogs/mindwaveposter5.png" alt="poster 5" class="img-fluid rounded-3 w-100" style="object-fit: contain;">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                     <div class="tw-text-4 text-paragraph-600 line-height-32-px">
                         <p class="tw-mb-5">
                             Early childhood education is fundamentally about discovery. When children step into a supportive environment tailored to their developmental needs, the joy of learning naturally blossoms.
@@ -82,6 +140,35 @@ blogs_data = [
         "title": "Creating Friendships and Memories in school...",
         "video": "https://www.instagram.com/reel/C2Sm55hvkiU/embed/",
         "content": """
+                    <div class="tw-mb-8">
+                        <div class="d-flex gap-4 flex-nowrap overflow-auto pb-4" style="scrollbar-width: thin; scrollbar-color: #60a5fa #f1f5f9; -webkit-overflow-scrolling: touch;">
+                            <div class="card border border-2 border-neutral-100 shadow-sm flex-shrink-0 rounded-4" style="width: 80%; max-width: 400px;">
+                                <div class="card-body p-2">
+                                    <img src="assets/images/blogs/mindwaveposter1.png" alt="poster 1" class="img-fluid rounded-3 w-100" style="object-fit: contain;">
+                                </div>
+                            </div>
+                            <div class="card border border-2 border-neutral-100 shadow-sm flex-shrink-0 rounded-4" style="width: 80%; max-width: 400px;">
+                                <div class="card-body p-2">
+                                    <img src="assets/images/blogs/Mindwaveposter2.png" alt="poster 2" class="img-fluid rounded-3 w-100" style="object-fit: contain;">
+                                </div>
+                            </div>
+                            <div class="card border border-2 border-neutral-100 shadow-sm flex-shrink-0 rounded-4" style="width: 80%; max-width: 400px;">
+                                <div class="card-body p-2">
+                                    <img src="assets/images/blogs/mindwaveposter3.png" alt="poster 3" class="img-fluid rounded-3 w-100" style="object-fit: contain;">
+                                </div>
+                            </div>
+                            <div class="card border border-2 border-neutral-100 shadow-sm flex-shrink-0 rounded-4" style="width: 80%; max-width: 400px;">
+                                <div class="card-body p-2">
+                                    <img src="assets/images/blogs/mindwaveposter4.png" alt="poster 4" class="img-fluid rounded-3 w-100" style="object-fit: contain;">
+                                </div>
+                            </div>
+                            <div class="card border border-2 border-neutral-100 shadow-sm flex-shrink-0 rounded-4" style="width: 80%; max-width: 400px;">
+                                <div class="card-body p-2">
+                                    <img src="assets/images/blogs/mindwaveposter5.png" alt="poster 5" class="img-fluid rounded-3 w-100" style="object-fit: contain;">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                     <div class="tw-text-4 text-paragraph-600 line-height-32-px">
                         <p class="tw-mb-5">
                             Beyond academics and developmental milestones, school is the primary place where children learn to socialize, build empathy, and form their very first friendships.

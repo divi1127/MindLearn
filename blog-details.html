@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -148,10 +148,10 @@
     <div class="about-circle about-circle-two"></div>
     
     <div class="container position-relative z-2">
-        <div class="row align-items-center">
+        <div class="row align-items-center justify-content-center text-center">
             <div class="col-lg-8">
-                <div class="about-content">
-                    <span class="about-badge">
+                <div class="about-content mx-auto">
+                    <span class="about-badge justify-content-center">
                         <i class="ph-bold ph-pencil-simple"></i>
                         Mind Wave Blog
                     </span>
@@ -160,7 +160,26 @@
                         Insights & <span>Updates</span>
                     </h1>
 
-                    <ul class="about-breadcrumb d-flex align-items-center flex-wrap gap-3 p-0 m-0">
+                    <p class="about-description mx-auto">
+                        Explore expert tips, therapy guidance, learning strategies, parenting advice, and inspiring success stories designed to support every child's growth and development journey.
+                    </p>
+
+                    <div class="d-flex align-items-center justify-content-center flex-wrap tw-gap-3 tw-mb-7">
+                        <div class="hero-feature-box">
+                            <i class="ph-bold ph-book-open-text"></i>
+                            <span>Learning Tips</span>
+                        </div>
+                        <div class="hero-feature-box">
+                            <i class="ph-bold ph-heart"></i>
+                            <span>Parenting Advice</span>
+                        </div>
+                        <div class="hero-feature-box">
+                            <i class="ph-bold ph-lightbulb"></i>
+                            <span>Therapy Insights</span>
+                        </div>
+                    </div>
+
+                    <ul class="about-breadcrumb d-flex align-items-center justify-content-center flex-wrap gap-3 p-0 m-0">
                         <li>
                             <a href="index.html">
                                 <i class="las la-home"></i> Home
@@ -195,6 +214,40 @@
                 rgba(37, 99, 235, 0.55) 100%
             );
             z-index: 0;
+        }
+
+        .about-description {
+            max-width: 620px;
+            font-size: 17px;
+            line-height: 1.8;
+            color: rgba(255,255,255,0.82);
+            margin-bottom: 35px;
+            text-align: center;
+        }
+
+        .hero-feature-box {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            background: rgba(255,255,255,0.12);
+            border: 1px solid rgba(255,255,255,0.15);
+            padding: 12px 18px;
+            border-radius: 14px;
+            color: #ffffff;
+            font-size: 14px;
+            font-weight: 600;
+            backdrop-filter: blur(8px);
+            transition: all 0.3s ease;
+        }
+
+        .hero-feature-box:hover {
+            transform: translateY(-4px);
+            background: rgba(255,255,255,0.18);
+        }
+
+        .hero-feature-box i {
+            font-size: 18px;
+            color: #60a5fa;
         }
 
         .about-content {
