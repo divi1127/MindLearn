@@ -154,16 +154,16 @@
     --neutral-100: #D9D9D9;
     --neutral-200: #E5E5E5;
     --neutral-300: #DBDBDB;
-    --neutral-400: #9ca3af;
-    --neutral-500: #5C6672;
-    --neutral-600: #4b5563;
-    --neutral-700: #636D6C;
-    --neutral-800: #1f2937;
+    --neutral-400: #6b7280;
+    --neutral-500: #4b5563;
+    --neutral-600: #374151;
+    --neutral-700: #1f2937;
+    --neutral-800: #111827;
     --neutral-900: #07071336;
     --neutral-950: #070713;
     --neutral-1000: #02023F;
-    --paragraph-500: #5C707E;
-    --paragraph-600: #385469;
+    --paragraph-500: #475569;
+    --paragraph-600: #1e293b;
     --primary-50: #4198d723;
     --primary-100: #7B0EC214;
     --primary-600: #4198D7;
@@ -441,10 +441,12 @@ input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill, text
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
     -webkit-appearance: none;
+    appearance: none;
 }
 
 input[type=number] {
     -moz-appearance: textfield;
+    appearance: textfield;
 }
 
 /* Custom Checkbox & Radio Css Start */
@@ -3178,6 +3180,7 @@ input:focus, input:focus-visible {
     overflow: hidden;
     text-overflow: ellipsis;
     -webkit-line-clamp: 1;
+    line-clamp: 1;
 }
 
 .line-clamp-2 {
@@ -3186,6 +3189,7 @@ input:focus, input:focus-visible {
     overflow: hidden;
     text-overflow: ellipsis;
     -webkit-line-clamp: 2;
+    line-clamp: 2;
 }
 
 .line-clamp-3 {
@@ -3194,6 +3198,7 @@ input:focus, input:focus-visible {
     overflow: hidden;
     text-overflow: ellipsis;
     -webkit-line-clamp: 3;
+    line-clamp: 3;
 }
 
 .line-clamp-4 {
@@ -3202,6 +3207,7 @@ input:focus, input:focus-visible {
     overflow: hidden;
     text-overflow: ellipsis;
     -webkit-line-clamp: 4;
+    line-clamp: 4;
 }
 
 /* Line Clamp End */
@@ -8007,7 +8013,7 @@ input:focus, input:focus-visible {
 
 .breadcrumb-vibrant {
     display: flex;
-    list-content: none;
+    list-style: none;
     padding: 0;
     margin: 0;
     gap: 1rem;
@@ -8432,3 +8438,63 @@ input:focus, input:focus-visible {
 
 /* ================================== Modern Page Hero & Unique Shapes End ================================== */
 
+/* ================================= Custom Responsive & Performance Fixes ================================= */
+.banner-section, .readiness-section, .core-values-section {
+    content-visibility: auto;
+    contain-intrinsic-size: 1px 500px;
+}
+
+@media (max-width: 991px) {
+    .banner-section .z-2, .readiness-section .z-2 {
+        height: 60px !important;
+    }
+    
+    .readiness-title {
+        font-size: clamp(1.8rem, 5vw, 2.2rem) !important;
+    }
+    
+    .development-card {
+        padding: 1.25rem !important;
+        margin-top: 2rem;
+    }
+}
+
+@media (max-width: 575px) {
+    .banner-section .z-2, .readiness-section .z-2 {
+        height: 40px !important;
+    }
+    
+    .readiness-title {
+        font-size: 1.6rem !important;
+    }
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* ================================= Accessibility: Touch Targets ================================= */
+/* Apply min-size only to specific UI elements to avoid breaking inline links */
+.btn, 
+.toggle-mobileMenu, 
+.close-button, 
+.swiper-button-next, 
+.swiper-button-prev, 
+.nav-menu__link,
+.social-icon-link {
+    min-width: 44px;
+    min-height: 44px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Ensure mobile nav links are easy to tap */
+@media (max-width: 991px) {
+    .nav-menu__item a {
+        padding: 12px 16px !important;
+        display: block !important;
+        width: 100%;
+    }
+}

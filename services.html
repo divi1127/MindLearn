@@ -67,13 +67,13 @@
   <!-- ==================== Mobile Menu Start Here ==================== -->
 <div class="mobile-menu d-xl-none d-block scroll-sm position-fixed bg-white tw-w-300-px tw-h-screen overflow-y-auto tw-p-6 tw-z-999 tw--translate-x-full tw-pb-68 ">
 
-    <button type="button" class="close-button position-absolute tw-end-0 top-0 tw-me-2 tw-mt-2 tw-w-605 tw-h-605 rounded-circle d-flex justify-content-center align-items-center text-white bg-neutral-500 hover-bg-neutral-900 hover-text-white"> 
+    <button type="button" class="close-button position-absolute tw-end-0 top-0 tw-me-2 tw-mt-2 tw-w-605 tw-h-605 rounded-circle d-flex justify-content-center align-items-center text-white bg-neutral-500 hover-bg-neutral-900 hover-text-white" aria-label="Close Mobile Menu"> 
         <i class="ph ph-x"></i>
     </button>
 
     <div class="mobile-menu__inner">
         <a href="index.html" class="mobile-menu__logo">
-            <img src="assets/images/logo/logo1.png" alt="Logo">
+            <img src="assets/images/logo/logo1.png" decoding="async" loading="lazy" alt="Logo" width="180" height="60">
         </a>
         <div class="mobile-menu__menu">
             <!-- Nav menu Start -->
@@ -150,7 +150,7 @@
             <span class="button__flair"></span>
             <span class="button__label">Contact Us</span>
             <span class="text-white tw-text-2xl group-hover-text-white tw-duration-500 position-relative">
-              <img src="assets/images/icon/banner-icon-white.png" alt="icon">
+              <img src="assets/images/icon/banner-icon-white.png" decoding="async" loading="lazy" alt="icon">
             </span>
           </a>
         </div>
@@ -158,7 +158,7 @@
         <button
           type="button"
           class="toggle-mobileMenu leading-none d-xl-none ms-3 text-neutral-800 tw-text-9"
-        >
+         aria-label="Toggle Mobile Menu">
           <i class="ph ph-list"></i>
         </button>
       </div>
@@ -170,6 +170,8 @@
 <!-- ==================== Header End Here ==================== -->
 
 
+
+<main id='main-content'>
 <!-- ================================ page header start ================================ -->
 <section class="breadcrumb sessions-hero position-relative overflow-hidden">
 
@@ -430,7 +432,7 @@
 
   <div class="container position-relative">
     <div class="text-center tw-mb-12">
-      <span class="d-inline-block fw-bold tw-mb-3" style="background: linear-gradient(135deg,#06b6d4,#10b981); -webkit-background-clip:text; -webkit-text-fill-color:transparent; font-size:1rem; letter-spacing:2px; text-transform:uppercase;" data-aos="fade-up" data-aos-duration="600" data-aos-delay="100">
+      <span class="d-inline-block fw-bold tw-mb-3" style="background: linear-gradient(135deg,#06b6d4,#10b981); -webkit-background-clip:text; background-clip:text; -webkit-text-fill-color:transparent; font-size:1rem; letter-spacing:2px; text-transform:uppercase;" data-aos="fade-up" data-aos-duration="600" data-aos-delay="100">
         <i class="ph-bold ph-first-aid-kit" style="margin-right:6px;color:#000;"></i>
         Conditions &amp; Services
         <i class="ph-bold ph-first-aid-kit" style="margin-left:6px;color:#000;"></i>
@@ -550,7 +552,7 @@
 
   <div class="container">
     <div class="text-center tw-mb-12">
-      <span class="d-inline-block fw-bold tw-mb-3" style="background: linear-gradient(135deg,#7c3aed,#ec4899); -webkit-background-clip:text; -webkit-text-fill-color:transparent; font-size:1rem; letter-spacing:2px; text-transform:uppercase;" data-aos="fade-up" data-aos-duration="600" data-aos-delay="100">
+      <span class="d-inline-block fw-bold tw-mb-3" style="background: linear-gradient(135deg,#7c3aed,#ec4899); -webkit-background-clip:text; background-clip:text; -webkit-text-fill-color:transparent; font-size:1rem; letter-spacing:2px; text-transform:uppercase;" data-aos="fade-up" data-aos-duration="600" data-aos-delay="100">
         <i class="ph-bold ph-clipboard-text" style="margin-right:6px;color:#000;"></i>
         Session Details
         <i class="ph-bold ph-clipboard-text" style="margin-left:6px;color:#000;"></i>
@@ -701,7 +703,7 @@
 <!-- ========================= School Readiness Program Section Start ========================= -->
 <section class="py-110 position-relative overflow-hidden readiness-section">
   <!-- Cloud shape merger with overlay -->
-  <img src="assets/images/shape/our-program-shape1.png" alt="shape" class="position-absolute top-0 tw-start-0 w-100 z-1">
+  <img src="assets/images/shape/our-program-shape1.png" decoding="async" loading="lazy" alt="shape" class="position-absolute top-0 tw-start-0 w-100 z-1" loading="lazy">
   <div class="position-absolute top-0 start-0 w-100 z-2" style="height: 120px; background: linear-gradient(to bottom, #ffffff 0%, transparent 40%); pointer-events: none;"></div>
   <!-- Floating icon decorations -->
   <div class="floating-icon icon-1">
@@ -989,7 +991,24 @@
       }
 
       .development-card {
-        padding: 2rem;
+        padding: 1.5rem;
+        border-radius: 24px;
+      }
+      .readiness-text {
+        font-size: 0.95rem;
+        line-height: 1.7;
+      }
+      .development-item {
+        padding: 10px 14px;
+        gap: 12px;
+      }
+      .development-item span {
+        font-size: 0.9rem;
+      }
+      .dev-icon {
+        width: 38px;
+        height: 38px;
+        font-size: 0.9rem;
       }
     }
   </style>
@@ -1000,13 +1019,13 @@
 
 <!-- ========================= our program section start ========================= -->
 <section class="position-relative bg-main-600 py-110 overflow-hidden">
-    <img src="./assets/images/shape/our-program-shape1.png" alt="shape" class="position-absolute top-0 tw-start-0 w-100 z-1">
+    <img src="./assets/images/shape/our-program-shape1.png" decoding="async" loading="lazy" alt="shape" class="position-absolute top-0 tw-start-0 w-100 z-1" loading="lazy">
     <div class="position-absolute top-0 start-0 w-100 z-2" style="height: 120px; background: linear-gradient(to bottom, #ffffff 0%, transparent 40%); pointer-events: none;"></div>
-    <img src="assets/images/shape/our-program-shaep2.png" alt="shape" class="position-absolute bottom-0 tw-start-0 tw-ms-104-px tw-mb-110-px d-lg-block d-none">
-    <img src="assets/images/shape/banner-shape3.png" alt="shape" class="position-absolute bottom-0 tw-end-0 tw-me--22-px tw-mb-202-px d-lg-block d-none animation-upDown">
+    <img src="assets/images/shape/our-program-shaep2.png" decoding="async" loading="lazy" alt="shape" class="position-absolute bottom-0 tw-start-0 tw-ms-104-px tw-mb-110-px d-lg-block d-none" loading="lazy">
+    <img src="assets/images/shape/banner-shape3.png" decoding="async" loading="lazy" alt="shape" class="position-absolute bottom-0 tw-end-0 tw-me--22-px tw-mb-202-px d-lg-block d-none animation-upDown">
     <div class="mt-110 position-relative">
-        <img src="assets/images/shape/banner-shape6.png" alt="shape" class="position-absolute top-0 tw-end-0 d-lg-block d-none tw-me-174-px animation-scalation">
-        <img src="assets/images/shape/our-program-shaep1.png" alt="shape" class="position-absolute top-0 tw-start-0 d-lg-block d-none tw-ms-104-px">
+        <img src="assets/images/shape/banner-shape6.png" decoding="async" loading="lazy" alt="shape" class="position-absolute top-0 tw-end-0 d-lg-block d-none tw-me-174-px animation-scalation">
+        <img src="assets/images/shape/our-program-shaep1.png" decoding="async" loading="lazy" alt="shape" class="position-absolute top-0 tw-start-0 d-lg-block d-none tw-ms-104-px">
         <div class="container max-w-1500-px w-100">
             <div class="text-center tw-mb-80-px">
                 <span class="text-white tw-text-405 fw-normal tw-mb-6" data-aos="fade-up" data-aos-duration="600" data-aos-delay="100">
@@ -1020,7 +1039,7 @@
                 <div class="col-xxl-3 col-lg-4 col-sm-6" data-aos="zoom-in" data-aos-delay="100">
                     <div class="bg-white tw-py-4 tw-px-4 tw-rounded-2xl w-100 h-100 tw-transform-roted--5">
                         <span class="tw-mb-5 d-block text-center">
-                            <img src="assets/images/thumbs/our-program-img1.png" alt="OT" style="max-width: 120px;">
+                            <img src="assets/images/thumbs/our-program-img1.png" decoding="async" loading="lazy" alt="OT" style="max-width: 120px;">
                         </span>
                         <div class="text-center tw-pb-6">
                             <span class="fw-semibold tw-text-base text-main-600 tw-mb-3 d-block">(All Ages)</span>
@@ -1038,7 +1057,7 @@
                 <div class="col-xxl-3 col-lg-4 col-sm-6" data-aos="zoom-in" data-aos-delay="150">
                     <div class="bg-white tw-py-4 tw-px-4 tw-rounded-2xl w-100 h-100 tw-transform-roted-5">
                         <span class="tw-mb-5 d-block text-center">
-                            <img src="assets/images/thumbs/our-program-img2.png" alt="Speech" style="max-width: 120px;">
+                            <img src="assets/images/thumbs/our-program-img2.png" decoding="async" loading="lazy" alt="Speech" style="max-width: 120px;">
                         </span>
                         <div class="text-center tw-pb-6">
                             <span class="fw-semibold tw-text-base text-main-600 tw-mb-3 d-block">(All Ages)</span>
@@ -1056,7 +1075,7 @@
                 <div class="col-xxl-3 col-lg-4 col-sm-6" data-aos="zoom-in" data-aos-delay="200">
                     <div class="bg-white tw-py-4 tw-px-4 tw-rounded-2xl w-100 h-100 tw-transform-roted--5">
                         <span class="tw-mb-5 d-block text-center">
-                            <img src="assets/images/thumbs/our-program-img3.png" alt="Physio" style="max-width: 120px;">
+                            <img src="assets/images/thumbs/our-program-img3.png" decoding="async" loading="lazy" alt="Physio" style="max-width: 120px;">
                         </span>
                         <div class="text-center tw-pb-6">
                             <span class="fw-semibold tw-text-base text-main-600 tw-mb-3 d-block">(All Ages)</span>
@@ -1074,7 +1093,7 @@
                 <div class="col-xxl-3 col-lg-4 col-sm-6" data-aos="zoom-in" data-aos-delay="250">
                     <div class="bg-white tw-py-4 tw-px-4 tw-rounded-2xl w-100 h-100 tw-transform-roted-5">
                         <span class="tw-mb-5 d-block text-center">
-                            <img src="assets/images/thumbs/our-program-img4.png" alt="Special Ed" style="max-width: 120px;">
+                            <img src="assets/images/thumbs/our-program-img4.png" decoding="async" loading="lazy" alt="Special Ed" style="max-width: 120px;">
                         </span>
                         <div class="text-center tw-pb-6">
                             <span class="fw-semibold tw-text-base text-main-600 tw-mb-3 d-block">(All Ages)</span>
@@ -1092,7 +1111,7 @@
                 <div class="col-xxl-3 col-lg-4 col-sm-6" data-aos="zoom-in" data-aos-delay="300">
                     <div class="bg-white tw-py-4 tw-px-4 tw-rounded-2xl w-100 h-100 tw-transform-roted--5">
                         <span class="tw-mb-5 d-block text-center">
-                            <img src="assets/images/thumbs/our-program-img1.png" alt="ABA" style="max-width: 120px;">
+                            <img src="assets/images/thumbs/our-program-img1.png" decoding="async" loading="lazy" alt="ABA" style="max-width: 120px;">
                         </span>
                         <div class="text-center tw-pb-6">
                             <span class="fw-semibold tw-text-base text-main-600 tw-mb-3 d-block">(All Ages)</span>
@@ -1110,7 +1129,7 @@
                 <div class="col-xxl-3 col-lg-4 col-sm-6" data-aos="zoom-in" data-aos-delay="350">
                     <div class="bg-white tw-py-4 tw-px-4 tw-rounded-2xl w-100 h-100 tw-transform-roted-5">
                         <span class="tw-mb-5 d-block text-center">
-                            <img src="assets/images/thumbs/our-program-img2.png" alt="Counselling" style="max-width: 120px;">
+                            <img src="assets/images/thumbs/our-program-img2.png" decoding="async" loading="lazy" alt="Counselling" style="max-width: 120px;">
                         </span>
                         <div class="text-center tw-pb-6">
                             <span class="fw-semibold tw-text-base text-main-600 tw-mb-3 d-block">(All Ages)</span>
@@ -1128,7 +1147,7 @@
                 <div class="col-xxl-3 col-lg-4 col-sm-6" data-aos="zoom-in" data-aos-delay="400">
                     <div class="bg-white tw-py-4 tw-px-4 tw-rounded-2xl w-100 h-100 tw-transform-roted--5">
                         <span class="tw-mb-5 d-block text-center">
-                            <img src="assets/images/thumbs/our-program-img3.png" alt="Clinical Psych" style="max-width: 120px;">
+                            <img src="assets/images/thumbs/our-program-img3.png" decoding="async" loading="lazy" alt="Clinical Psych" style="max-width: 120px;">
                         </span>
                         <div class="text-center tw-pb-6">
                             <span class="fw-semibold tw-text-base text-main-600 tw-mb-3 d-block">(All Ages)</span>
@@ -1522,7 +1541,7 @@
 
     <!-- ========================== why choose us section start ========================== -->
 <section class="py-110 position-relative">
-    <img src="assets/images/shape/banner-shape4.png" alt="img" class="position-absolute bottom-0 tw-start-0 tw-mb-182-px animation-upDown d-xl-block d-none">
+    <img src="assets/images/shape/banner-shape4.png" decoding="async" loading="lazy" alt="img" class="position-absolute bottom-0 tw-start-0 tw-mb-182-px animation-upDown d-xl-block d-none">
     <div class="container">
         <div class="row gy-5">
             <div class="col-xl-6">
@@ -1534,14 +1553,14 @@
                 <div class="row gy-4">
                     <div class="col-sm-6" data-aos="fade-up" data-aos-duration="600" data-aos-delay="300">
                         <div class="choose-us-musk-bg-img1 tw-py-11 tw-px-8 text-center tw-rounded-all animation-item tw-rounded-all">
-                            <img src="assets/images/icon/choose-us-icon1.png" alt="icon" class="tw-mb-5 animate__bounce d-block mx-auto">
+                            <img src="assets/images/icon/choose-us-icon1.png" decoding="async" loading="lazy" alt="icon" class="tw-mb-5 animate__bounce d-block mx-auto">
                             <span class="fw-medium tw-text-405 text-white tw-mb-5">Our Course Completed</span>
                             <h2 class="fw-normal text-white h2">2000+</h2>
                         </div>
                     </div>
                     <div class="col-sm-6" data-aos="fade-up" data-aos-duration="600" data-aos-delay="400">
                         <div class="choose-us-musk-bg-img2 tw-py-11 tw-px-8 text-center tw-rounded-all animation-item tw-rounded-all">
-                            <img src="assets/images/icon/choose-us-icon2.png" alt="icon" class="tw-mb-5 animate__bounce d-block mx-auto">
+                            <img src="assets/images/icon/choose-us-icon2.png" decoding="async" loading="lazy" alt="icon" class="tw-mb-5 animate__bounce d-block mx-auto">
                             <span class="fw-medium tw-text-405 text-white tw-mb-5">Years of Experience</span>
                             <h2 class="fw-normal text-white h1">20+</h2>
                         </div>
@@ -1553,21 +1572,21 @@
                     <div class="row gy-5">
                         <div class="col-sm-6" data-aos="fade-up" data-aos-duration="600" data-aos-delay="100">
                         <div class="bg-main-50 tw-py-11 tw-px-8 tw-rounded-all animation-item tw-rounded-all">
-                            <img src="assets/images/icon/choose-us-icon3.png" alt="icon" class="tw-mb-5 animate__bounce d-block">
+                            <img src="assets/images/icon/choose-us-icon3.png" decoding="async" loading="lazy" alt="icon" class="tw-mb-5 animate__bounce d-block">
                             <span class="fw-medium tw-text-405 text-neutral-950 tw-mb-5">Years of Experience</span>
                             <p class="fw-normal text-paragraph-500">Safety is above all else. We pay special attention to this. Special room plan.</p>
                         </div>
                         </div>
                         <div class="col-sm-6" data-aos="fade-up" data-aos-duration="600" data-aos-delay="200">
                             <div class="bg-primary-100 tw-py-11 tw-px-8 tw-rounded-all animation-item tw-rounded-all">
-                                <img src="assets/images/icon/choose-us-icon4.png" alt="icon" class="tw-mb-5 animate__bounce d-block">
+                                <img src="assets/images/icon/choose-us-icon4.png" decoding="async" loading="lazy" alt="icon" class="tw-mb-5 animate__bounce d-block">
                                 <span class="fw-medium tw-text-405 text-neutral-950 tw-mb-5">Safety and Security</span>
                                 <p class="fw-normal text-paragraph-500">Safety is above all else. We pay special attention to this. Special room plan.</p>
                             </div>
                         </div>
                     </div>
                     <span class="d-flex align-items-center justify-content-center" data-aos="zoom-in" data-aos-duration="1500">
-                        <img src="assets/images/thumbs/choose-us-img1.png" alt="img" class="tw-mt-5">
+                        <img src="assets/images/thumbs/choose-us-img1.png" decoding="async" loading="lazy" alt="img" class="tw-mt-5">
                     </span>
                 </div>
             </div>
@@ -1587,7 +1606,7 @@
                     <span class="button__flair"></span>
                     <span class="button__label">Register Now</span>
                     <span class="text-white tw-text-2xl group-hover-text-white tw-duration-500 position-relative">
-                        <img src="assets/images/icon/banner-icon-white.png" alt="icon">
+                        <img src="assets/images/icon/banner-icon-white.png" decoding="async" loading="lazy" alt="icon">
                     </span>
                 </a>
             </div>
@@ -1602,7 +1621,7 @@
 
 
     <div class="bg-neutral-10 position-relative">
-    <img src="assets/images/shape/footer-shape2.png" alt="shape" class="position-absolute bottom-0 tw-start-0 tw-mb-7 tw-ms-12 animation-upDown d-xl-block d-none">
+    <img src="assets/images/shape/footer-shape2.png" decoding="async" loading="lazy" alt="shape" class="position-absolute bottom-0 tw-start-0 tw-mb-7 tw-ms-12 animation-upDown d-xl-block d-none">
     <div class="tw-mb-242-px">
 
         
@@ -1682,10 +1701,10 @@
 <section>
     <div class="container">
         <div class="bg-main-two-200 tw-px-90-px tw-rounded-4xl position-relative z-2 overflow-hidden tw-mt-12">
-            <img src="assets/images/shape/banner-shape1.png" alt="shape" class="position-absolute bottom-0 tw-start-0 w-100 ">
-            <img src="assets/images/shape/get-start-shape1.png" alt="shape" class="position-absolute bottom-0 tw-start-0 w-100">
-            <img src="assets/images/shape/get-start-shape2.png" alt="shape" class="position-absolute bottom-0 tw-start-0 tw-start-50 translate-middle d-xl-block d-none">
-            <img src="assets/images/shape/get-start-shape4.png" alt="shape" class="position-absolute top-0 tw-end-0 tw-end-50 tw-mt-6 d-xl-block d-none animation-scalation">
+            <img src="assets/images/shape/banner-shape1.png" decoding="async" loading="lazy" alt="shape" class="position-absolute bottom-0 tw-start-0 w-100 ">
+            <img src="assets/images/shape/get-start-shape1.png" decoding="async" loading="lazy" alt="shape" class="position-absolute bottom-0 tw-start-0 w-100">
+            <img src="assets/images/shape/get-start-shape2.png" decoding="async" loading="lazy" alt="shape" class="position-absolute bottom-0 tw-start-0 tw-start-50 translate-middle d-xl-block d-none">
+            <img src="assets/images/shape/get-start-shape4.png" decoding="async" loading="lazy" alt="shape" class="position-absolute top-0 tw-end-0 tw-end-50 tw-mt-6 d-xl-block d-none animation-scalation">
             <div class="row gy-4">
                 <div class="col-xl-6">
                     <div class="tw-pt-17 pb-110">
@@ -1696,7 +1715,7 @@
                             <span class="button__flair"></span>
                             <span class="button__label">Book Your Visit</span>
                             <span class="text-white tw-text-2xl group-hover-text-white tw-duration-500 position-relative">
-                                <img src="assets/images/icon/banner-icon-white.png" alt="icon">
+                                <img src="assets/images/icon/banner-icon-white.png" decoding="async" loading="lazy" alt="icon">
                             </span>
                         </a>
                     </div>
@@ -1704,8 +1723,8 @@
                 <div class="col-xl-6" data-aos="zoom-in" data-aos-duration="1500">
                     <div class="d-xl-block d-none">
                         <span class="d-flex align-items-end justify-content-center z-n1 position-relative">
-                            <img src="assets/images/thumbs/get-start-img1.png" alt="img">
-                            <img src="assets/images/shape/get-start-shape3.png" alt="shape" class="position-absolute top-0 tw-start-0 tw-mt-114-px d-xl-block d-none animation-upDown">
+                            <img src="assets/images/thumbs/get-start-img1.png" decoding="async" loading="lazy" alt="img">
+                            <img src="assets/images/shape/get-start-shape3.png" decoding="async" loading="lazy" alt="shape" class="position-absolute top-0 tw-start-0 tw-mt-114-px d-xl-block d-none animation-upDown">
                         </span>
                     </div>
                 </div>
@@ -1717,8 +1736,8 @@
 
     <!-- ========================= blog section start ========================= -->
 <section class="py-110 position-relative">
-    <img src="assets/images/shape/blog-shape1.png" alt="shape" class="position-absolute top-0 tw-end-0 tw-mt-260-px tw-me-130-px z-n1 d-xl-block d-none animation-upDown">
-    <img src="assets/images/shape/blog-shape2.png" alt="shape" class="position-absolute bottom-0 tw-start-0 z-n1 d-xl-block d-none animation-upDown tw-mt--170-px tw-ms-100-px">
+    <img src="assets/images/shape/blog-shape1.png" decoding="async" loading="lazy" alt="shape" class="position-absolute top-0 tw-end-0 tw-mt-260-px tw-me-130-px z-n1 d-xl-block d-none animation-upDown">
+    <img src="assets/images/shape/blog-shape2.png" decoding="async" loading="lazy" alt="shape" class="position-absolute bottom-0 tw-start-0 z-n1 d-xl-block d-none animation-upDown tw-mt--170-px tw-ms-100-px">
 
     <div class="container">
         <div class="text-center tw-mb-12">
@@ -1729,7 +1748,7 @@
             <div class="col-xl-4 col-lg-6 col-md-6" data-aos="fade-up" data-aos-duration="600" data-aos-delay="100">
                 <div class="animation-item">
                     <span class="overflow-hidden tw-rounded-20-px tw-rounded-top-20-px w-100">
-                        <img src="assets/images/thumbs/blog-img1.png" alt="img" class="tw-duration-300 course-item__img bg-img">
+                        <img src="assets/images/thumbs/blog-img1.png" decoding="async" loading="lazy" alt="img" class="tw-duration-300 course-item__img bg-img">
                     </span>
                     <div class="tw-p-7 bg-white tw-rounded-bottom-20-px">
                         <div class="d-flex align-items-center tw-gap-5 flex-wrap tw-mb-4">
@@ -1759,7 +1778,7 @@
             <div class="col-xl-4 col-lg-6 col-md-6" data-aos="fade-up" data-aos-duration="600" data-aos-delay="200">
                 <div class="animation-item">
                     <span class="overflow-hidden tw-rounded-20-px tw-rounded-top-20-px w-100">
-                        <img src="assets/images/thumbs/blog-img2.png" alt="img" class="tw-duration-300 course-item__img bg-img">
+                        <img src="assets/images/thumbs/blog-img2.png" decoding="async" loading="lazy" alt="img" class="tw-duration-300 course-item__img bg-img">
                     </span>
                     <div class="tw-p-7 bg-white tw-rounded-bottom-20-px">
                         <div class="d-flex align-items-center tw-gap-5 flex-wrap tw-mb-4">
@@ -1789,7 +1808,7 @@
             <div class="col-xl-4 col-lg-6 col-md-6" data-aos="fade-up" data-aos-duration="600" data-aos-delay="300">
                 <div class="animation-item">
                     <span class="overflow-hidden tw-rounded-20-px tw-rounded-top-20-px w-100">
-                        <img src="assets/images/thumbs/blog-img3.png" alt="img" class="tw-duration-300 course-item__img bg-img">
+                        <img src="assets/images/thumbs/blog-img3.png" decoding="async" loading="lazy" alt="img" class="tw-duration-300 course-item__img bg-img">
                     </span>
                     <div class="tw-p-7 bg-white tw-rounded-bottom-20-px">
                         <div class="d-flex align-items-center tw-gap-5 flex-wrap tw-mb-4">
@@ -1824,12 +1843,14 @@
 
 
 
-    <!-- ==================== Footer Start Here ==================== -->
+    
+</main>
+<!-- ==================== Footer Start Here ==================== -->
 <footer class="footer position-relative z-2" style="background: linear-gradient(180deg, #e8f4fd 0%, #d6ecfa 100%);">
-  <img src="assets/images/shape/our-program-shape1.png" alt="shape" class="position-absolute top-0 tw-start-0 w-100">
-  <img src="assets/images/shape/footer-shape1.png" alt="shape" class="position-absolute top-0 tw-start-0 tw-mt-240-px d-xl-block d-none z-n1 animation-upDown">
-  <img src="assets/images/shape/footer-shape2.png" alt="shape" class="position-absolute top-0 tw-end-0 tw-mt-200-px tw-me-130-px d-xl-block d-none z-n1 animation-upDown">
-  <img src="assets/images/shape/our-program-shaep2.png" alt="shape" class="position-absolute bottom-0 tw-end-0 tw-mb-242-px tw-me-130-px d-xl-block d-none z-n1 animation-scalation">
+  <img src="assets/images/shape/our-program-shape1.png" decoding="async" loading="lazy" alt="shape" class="position-absolute top-0 tw-start-0 w-100">
+  <img src="assets/images/shape/footer-shape1.png" decoding="async" loading="lazy" alt="shape" class="position-absolute top-0 tw-start-0 tw-mt-240-px d-xl-block d-none z-n1 animation-upDown">
+  <img src="assets/images/shape/footer-shape2.png" decoding="async" loading="lazy" alt="shape" class="position-absolute top-0 tw-end-0 tw-mt-200-px tw-me-130-px d-xl-block d-none z-n1 animation-upDown">
+  <img src="assets/images/shape/our-program-shaep2.png" decoding="async" loading="lazy" alt="shape" class="position-absolute bottom-0 tw-end-0 tw-mb-242-px tw-me-130-px d-xl-block d-none z-n1 animation-scalation">
   <div class="py-110">
     <div class="tw-mt-210-px">
       <div class="container container-two">
@@ -1837,7 +1858,7 @@
           <div class="col-xl-4 col-lg-4 col-sm-6 aos-init aos-animate" data-aos="fade-up" data-aos-duration="600" data-aos-delay="100"> 
            <div class="ms-lg-4 ms-xl-5 me-lg-4 me-xl-5" style="margin-top: -20px; margin-left: 40px;">
               <a href="index.html" class="tw-mb-2">
-                <img src="assets/images/logo/logo2.png" alt="logo">
+                <img src="assets/images/logo/logo2.png" decoding="async" loading="lazy" alt="logo">
               </a>
               <p class="fw-normal tw-text-4 text-paragraph-500 tw-mb-6 ms-lg-4 ms-xl-5 ">Empowering children with diverse learning needs through specialized therapy and expert guidance in Madurai.</p>
               <ul class="d-flex align-items-center tw-gap-2 flex-wrap ms-lg-4 ms-xl-5">
@@ -1866,7 +1887,7 @@
           </div>
           <div class="col-xl-4 col-lg-4 col-sm-6 aos-init aos-animate  d-lg-flex justify-content-lg-center" data-aos="fade-up" data-aos-duration="600" data-aos-delay="200">
               <div>
-                <h1 class="fw-bold text-neutral-950 h5">Quick Links</h1>
+                <h2 class="fw-bold text-neutral-950 h5">Quick Links</h2>
                 <span class="tw-w-82-px tw-h-05 tw-border-gradient tw-mb-7 tw-mt-5"></span>
                 <div class="d-flex flex-column tw-gap-3">
                   <a href="index.html" class="tw-text-4 text-paragraph-600 d-flex align-items-center tw-gap-2 hover-text-main-600 tw-duration-300">
@@ -1898,12 +1919,12 @@
           </div>
           <div class="col-xl-4 col-lg-4 col-sm-6 aos-init aos-animate" data-aos="fade-up" data-aos-duration="600" data-aos-delay="300">
             <div>
-              <h1 class="fw-bold text-neutral-950 h5">Contact Info</h1>
+              <h2 class="fw-bold text-neutral-950 h5">Contact Info</h2>
               <span class="tw-w-82-px tw-h-05 tw-border-gradient tw-mb-7 tw-mt-5"></span>
               <div class="d-flex flex-column tw-gap-4">
                 <div class="d-flex align-items-start tw-gap-3">
                   <span class="tw-w-10 tw-h-10 bg-main-600 text-white d-flex align-items-center justify-content-center tw-text-5 rounded-circle flex-shrink-0">
-                    <img src="assets/images/icon/footer-icon1.png" alt="icon" style="width: 20px;">
+                    <img src="assets/images/icon/footer-icon1.png" decoding="async" loading="lazy" alt="icon" style="width: 20px;">
                   </span>
                   <div>
                     <a href="tel:+917826871718" class="fw-semibold text-neutral-950 h6 tw-mb-0">
@@ -1913,7 +1934,7 @@
                 </div>
                 <div class="d-flex align-items-start tw-gap-3">
                   <span class="tw-w-10 tw-h-10 bg-main-two-600 text-white d-flex align-items-center justify-content-center tw-text-5 rounded-circle flex-shrink-0">
-                    <img src="assets/images/icon/footer-icon2.png" alt="icon" style="width: 20px;">
+                    <img src="assets/images/icon/footer-icon2.png" decoding="async" loading="lazy" alt="icon" style="width: 20px;">
                   </span>
                   <div>
                     <a href="mailto:mindwave18@gmail.com" class="fw-semibold text-neutral-950 h6 tw-mb-0">
@@ -1923,7 +1944,7 @@
                 </div>
                 <div class="d-flex align-items-start tw-gap-3">
                   <span class="tw-w-10 tw-h-10 bg-pink-600 text-white d-flex align-items-center justify-content-center tw-text-5 rounded-circle flex-shrink-0">
-                    <img src="assets/images/icon/footer-icon3.png" alt="icon" style="width: 20px;">
+                    <img src="assets/images/icon/footer-icon3.png" decoding="async" loading="lazy" alt="icon" style="width: 20px;">
                   </span>
                   <div>
                     <span class="fw-medium text-neutral-950 h6 tw-mb-0">
@@ -1965,30 +1986,30 @@
 
 
     <!-- Jquery js -->
-<script src="assets/js/jquery-3.7.1.min.js"></script>
+<script src="assets/js/jquery-3.7.1.min.js" defer defer></script>
 <!-- phosphor Js -->
-<script src="assets/js/phosphor-icon.js"></script>
+<script src="assets/js/phosphor-icon.js" defer defer></script>
 <!-- Bootstrap Bundle Js -->
-<script src="assets/js/boostrap.bundle.min.js"></script>
+<script src="assets/js/boostrap.bundle.min.js" defer defer></script>
 <!-- swiper js -->
-<script src="assets/js/swiper-bundle.min.js"></script>
+<script src="assets/js/swiper-bundle.min.js" defer defer></script>
 <!-- aos -->
-<script src="assets/js/aos.js"></script>
+<script src="assets/js/aos.js" defer defer></script>
 <!-- magnipic -->
-<script src="assets/js/magnipic-popup.js"></script>
+<script src="assets/js/magnipic-popup.js" defer defer></script>
 <!-- couterup -->
-<script src="assets/js/counterup.min.js"></script>
+<script src="assets/js/counterup.min.js" defer defer></script>
 <!-- GSAP js -->
-<script src="assets/js/gsap.min.js"></script>
+<script src="assets/js/gsap.min.js" defer defer></script>
 <!-- SplitText -->
-<script src="assets/js/SplitText.min.js"></script>
+<script src="assets/js/SplitText.min.js" defer defer></script>
 <!-- Scroll Trigger -->
-<script src="assets/js/ScrollTrigger.min.js"></script>
+<script src="assets/js/ScrollTrigger.min.js" defer defer></script>
 <!-- custom GSAP -->
-<script src="assets/js/custom-gsap.js"></script>
+<script src="assets/js/custom-gsap.js" defer defer></script>
 
 <!-- main js -->
-<script src="assets/js/main.js"></script>
+<script src="assets/js/main.js" defer defer></script>
 
 
     </body>
