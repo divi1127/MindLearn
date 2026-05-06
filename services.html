@@ -16,23 +16,29 @@
   <!-- Favicon -->
   <link rel="icon" href="assets/images/logo/favicon.png" type="image/png">
   <!-- Bootstrap -->
-  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css" media="print" onload="this.media='all'">
   <link rel="preload" as="style" href="assets/css/bootstrap.min.css">
   <!-- swiper -->
-  <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+  <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" media="print" onload="this.media='all'">
   <!-- magnipic -->
-  <link rel="stylesheet" href="assets/css/magnipic-popup.css">
+  <link rel="stylesheet" href="assets/css/magnipic-popup.css" media="print" onload="this.media='all'">
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;800&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
   <!-- aos -->
-  <link rel="stylesheet" href="assets/css/aos.css">
+  <link rel="stylesheet" href="assets/css/aos.css" media="print" onload="this.media='all'">
   <!-- Main css -->
-  <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="stylesheet" href="assets/css/main.css" media="print" onload="this.media='all'">
   <link rel="preload" as="style" href="assets/css/main.css">
   <link rel="preload" as="image" href="assets/images/shape/kidimage.png" fetchpriority="high">
-</head>
+<style>
+    .loader-mask { position: fixed; top: 0; left: 0; right: 0; bottom: 0; background-color: #fff; z-index: 999999; display: flex; align-items: center; justify-content: center; }
+    .loader { width: 40px; height: 40px; position: relative; }
+    .header { background: #fff; }
+    .banner-section { min-height: 650px; background: #f8f9fa; }
+</style>
+
 
 <body>
   <!--==================== Preloader Start ====================-->
@@ -76,7 +82,7 @@
 
     <div class="mobile-menu__inner">
         <a href="index.html" class="mobile-menu__logo">
-            <img src="assets/images/logo/logo1.png" decoding="async" loading="lazy" alt="Logo" width="180" height="60">
+            <img src="assets/images/logo/logo1.png" decoding="async" loading="lazy" alt="Logo" width="180" height="60" width="320" height="80">
         </a>
         <div class="mobile-menu__menu">
             <!-- Nav menu Start -->
@@ -155,7 +161,7 @@
             <span class="button__flair"></span>
             <span class="button__label">Contact Us</span>
             <span class="text-white tw-text-2xl group-hover-text-white tw-duration-500 position-relative">
-              <img src="assets/images/icon/banner-icon-white.png" decoding="async" loading="lazy" alt="icon">
+              <img src="assets/images/icon/banner-icon-white.png" decoding="async" loading="lazy" alt="icon" width="24" height="24">
             </span>
           </a>
         </div>
@@ -1558,14 +1564,14 @@
                 <div class="row gy-4">
                     <div class="col-sm-6" data-aos="fade-up" data-aos-duration="600" data-aos-delay="300">
                         <div class="choose-us-musk-bg-img1 tw-py-11 tw-px-8 text-center tw-rounded-all animation-item tw-rounded-all">
-                            <img src="assets/images/icon/choose-us-icon1.png" decoding="async" loading="lazy" alt="icon" class="tw-mb-5 animate__bounce d-block mx-auto">
+                            <img src="assets/images/icon/choose-us-icon1.png" decoding="async" loading="lazy" alt="icon" class="tw-mb-5 animate__bounce d-block mx-auto" width="24" height="24">
                             <span class="fw-medium tw-text-405 text-white tw-mb-5">Our Course Completed</span>
                             <h2 class="fw-normal text-white h2">2000+</h2>
                         </div>
                     </div>
                     <div class="col-sm-6" data-aos="fade-up" data-aos-duration="600" data-aos-delay="400">
                         <div class="choose-us-musk-bg-img2 tw-py-11 tw-px-8 text-center tw-rounded-all animation-item tw-rounded-all">
-                            <img src="assets/images/icon/choose-us-icon2.png" decoding="async" loading="lazy" alt="icon" class="tw-mb-5 animate__bounce d-block mx-auto">
+                            <img src="assets/images/icon/choose-us-icon2.png" decoding="async" loading="lazy" alt="icon" class="tw-mb-5 animate__bounce d-block mx-auto" width="24" height="24">
                             <span class="fw-medium tw-text-405 text-white tw-mb-5">Years of Experience</span>
                             <h2 class="fw-normal text-white h1">20+</h2>
                         </div>
@@ -1577,14 +1583,14 @@
                     <div class="row gy-5">
                         <div class="col-sm-6" data-aos="fade-up" data-aos-duration="600" data-aos-delay="100">
                         <div class="bg-main-50 tw-py-11 tw-px-8 tw-rounded-all animation-item tw-rounded-all">
-                            <img src="assets/images/icon/choose-us-icon3.png" decoding="async" loading="lazy" alt="icon" class="tw-mb-5 animate__bounce d-block">
+                            <img src="assets/images/icon/choose-us-icon3.png" decoding="async" loading="lazy" alt="icon" class="tw-mb-5 animate__bounce d-block" width="24" height="24">
                             <span class="fw-medium tw-text-405 text-neutral-950 tw-mb-5">Years of Experience</span>
                             <p class="fw-normal text-paragraph-500">Safety is above all else. We pay special attention to this. Special room plan.</p>
                         </div>
                         </div>
                         <div class="col-sm-6" data-aos="fade-up" data-aos-duration="600" data-aos-delay="200">
                             <div class="bg-primary-100 tw-py-11 tw-px-8 tw-rounded-all animation-item tw-rounded-all">
-                                <img src="assets/images/icon/choose-us-icon4.png" decoding="async" loading="lazy" alt="icon" class="tw-mb-5 animate__bounce d-block">
+                                <img src="assets/images/icon/choose-us-icon4.png" decoding="async" loading="lazy" alt="icon" class="tw-mb-5 animate__bounce d-block" width="24" height="24">
                                 <span class="fw-medium tw-text-405 text-neutral-950 tw-mb-5">Safety and Security</span>
                                 <p class="fw-normal text-paragraph-500">Safety is above all else. We pay special attention to this. Special room plan.</p>
                             </div>
@@ -1607,11 +1613,11 @@
             <h2 class="fw-bold text-neutral-950 tw-mb-6 h3">Register for Our Exciting Summer Camp!</h2>
             <p class="fw-normal tw-text-4 text-paragraph-600 tw-mb-10">Join our fun and engaging summer camp filled with skill-building activities, interactive learning, and new friendships. Limited seats available—secure your child's spot today!</p>
             <div class="d-flex align-items-center justify-content-center tw-gap-4 flex-wrap">
-                <a href="https://docs.google.com/forms/d/e/1FAIpQLSeX3HNUeDPu_lLfEG8xhGCl2tAmuVCAth2FHp3IdeNmtxtm7g/viewform" target="_blank" class="btn btn-main hover-style-one button--stroke active-scale-094 tw-duration-100 d-inline-flex align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-rounded-2xl tw-text-4" data-block="button">
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSeX3HNUeDPu_lLfEG8xhGCl2tAmuVCAth2FHp3IdeNmtxtm7g/viewform" target="_blank" class="btn btn-main hover-style-one button--stroke active-scale-094 tw-duration-100 d-inline-flex align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-rounded-2xl tw-text-4" data-block="button" rel="noopener">
                     <span class="button__flair"></span>
                     <span class="button__label">Register Now</span>
                     <span class="text-white tw-text-2xl group-hover-text-white tw-duration-500 position-relative">
-                        <img src="assets/images/icon/banner-icon-white.png" decoding="async" loading="lazy" alt="icon">
+                        <img src="assets/images/icon/banner-icon-white.png" decoding="async" loading="lazy" alt="icon" width="24" height="24">
                     </span>
                 </a>
             </div>
@@ -1716,11 +1722,11 @@
                         <span class="fw-normal tw-text-405 text-main-600 tw-mb-4" data-aos="fade-up" data-aos-duration="600" data-aos-delay="100">Get Started Now</span>
                         <h2 class="fw-bold text-neutral-950 line-height-62-px tw-mb-5 h4" data-aos="fade-up" data-aos-duration="600" data-aos-delay="200">How to enroll your child to a class?</h2>
                         <p class="fw-normal tw-text-4 text-paragraph-500 tw-mb-6" data-aos="fade-up" data-aos-duration="600" data-aos-delay="300">We are excited and pleased to introduce you to the wonderful, passionate and committed educators who are working at Skole Learning Centre.</p>
-                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSfhCnRj2Wl6tDVo83s71vm-9Viq4V0zwq6yVE-umvT1LEdURg/viewform?usp=dialog" target="_blank" class="btn btn-main-two hover-style-two button--stroke active-scale-094 tw-duration-100 d-inline-flex align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-rounded-2xl tw-text-4 tw-border-bottom-white" data-block="button" data-aos="fade-up" data-aos-duration="600" data-aos-delay="350">
+                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSfhCnRj2Wl6tDVo83s71vm-9Viq4V0zwq6yVE-umvT1LEdURg/viewform?usp=dialog" target="_blank" class="btn btn-main-two hover-style-two button--stroke active-scale-094 tw-duration-100 d-inline-flex align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-rounded-2xl tw-text-4 tw-border-bottom-white" data-block="button" data-aos="fade-up" data-aos-duration="600" data-aos-delay="350" rel="noopener">
                             <span class="button__flair"></span>
                             <span class="button__label">Book Your Visit</span>
                             <span class="text-white tw-text-2xl group-hover-text-white tw-duration-500 position-relative">
-                                <img src="assets/images/icon/banner-icon-white.png" decoding="async" loading="lazy" alt="icon">
+                                <img src="assets/images/icon/banner-icon-white.png" decoding="async" loading="lazy" alt="icon" width="24" height="24">
                             </span>
                         </a>
                     </div>
@@ -1863,27 +1869,27 @@
           <div class="col-xl-4 col-lg-4 col-sm-6 aos-init aos-animate" data-aos="fade-up" data-aos-duration="600" data-aos-delay="100"> 
            <div class="ms-lg-4 ms-xl-5 me-lg-4 me-xl-5" style="margin-top: -20px; margin-left: 40px;">
               <a href="index.html" class="tw-mb-2">
-                <img src="assets/images/logo/logo2.png" decoding="async" loading="lazy" alt="logo">
+                <img src="assets/images/logo/logo2.png" decoding="async" loading="lazy" alt="logo" width="200" height="60">
               </a>
               <p class="fw-normal tw-text-4 text-paragraph-500 tw-mb-6 ms-lg-4 ms-xl-5 ">Empowering children with diverse learning needs through specialized therapy and expert guidance in Madurai.</p>
               <ul class="d-flex align-items-center tw-gap-2 flex-wrap ms-lg-4 ms-xl-5">
                 <li>
-                  <a href="https://www.facebook.com/p/Mind-Wave-Learning-Disability-Center-100064220651688/" class="tw-w-9 tw-h-9 bg-white text-black tw-rounded-lg hover-bg-main-600 hover-text-white tw-duration-300 tw-text-405 d-flex align-items-center justify-content-center">
+                  <a href="https://www.facebook.com/p/Mind-Wave-Learning-Disability-Center-100064220651688/" aria-label="Follow us on Facebook" rel="noopener" class="tw-w-9 tw-h-9 bg-white text-black tw-rounded-lg hover-bg-main-600 hover-text-white tw-duration-300 tw-text-405 d-flex align-items-center justify-content-center">
                     <i class="ph-fill ph-facebook-logo"></i>
                   </a>
                 </li>
                 <li>
-                  <a href="https://www.instagram.com/mindwave_specialeducationcentr/" class="tw-w-9 tw-h-9 bg-white text-black tw-rounded-lg hover-bg-main-600 hover-text-white tw-duration-300 tw-text-405 d-flex align-items-center justify-content-center">
+                  <a href="https://www.instagram.com/mindwave_specialeducationcentr/" aria-label="Follow us on Instagram" rel="noopener" class="tw-w-9 tw-h-9 bg-white text-black tw-rounded-lg hover-bg-main-600 hover-text-white tw-duration-300 tw-text-405 d-flex align-items-center justify-content-center">
                     <i class="ph-fill ph-instagram-logo"></i>
                   </a>
                 </li>
                 <li>
-                  <a href="https://www.linkedin.com/in/uma-sampath-7b8267227/" class="tw-w-9 tw-h-9 bg-white text-black tw-rounded-lg hover-bg-main-600 hover-text-white tw-duration-300 tw-text-405 d-flex align-items-center justify-content-center">
+                  <a href="https://www.linkedin.com/in/uma-sampath-7b8267227/" aria-label="Follow us on LinkedIn" rel="noopener" class="tw-w-9 tw-h-9 bg-white text-black tw-rounded-lg hover-bg-main-600 hover-text-white tw-duration-300 tw-text-405 d-flex align-items-center justify-content-center">
                     <i class="ph-fill ph-linkedin-logo"></i>
                   </a>
                 </li>
                 <li>
-                  <a href="https://www.youtube.com/@MindWavesLearningCentre" class="tw-w-9 tw-h-9 bg-white text-black tw-rounded-lg hover-bg-main-600 hover-text-white tw-duration-300 tw-text-405 d-flex align-items-center justify-content-center">
+                  <a href="https://www.youtube.com/@MindWavesLearningCentre" aria-label="Subscribe to our YouTube channel" rel="noopener" class="tw-w-9 tw-h-9 bg-white text-black tw-rounded-lg hover-bg-main-600 hover-text-white tw-duration-300 tw-text-405 d-flex align-items-center justify-content-center">
                     <i class="ph-fill ph-youtube-logo"></i>
                   </a>
                 </li>           
@@ -1929,7 +1935,7 @@
               <div class="d-flex flex-column tw-gap-4">
                 <div class="d-flex align-items-start tw-gap-3">
                   <span class="tw-w-10 tw-h-10 bg-main-600 text-white d-flex align-items-center justify-content-center tw-text-5 rounded-circle flex-shrink-0">
-                    <img src="assets/images/icon/footer-icon1.png" decoding="async" loading="lazy" alt="icon" style="width: 20px;">
+                    <img src="assets/images/icon/footer-icon1.png" decoding="async" loading="lazy" alt="icon" style="width: 20px;" width="24" height="24">
                   </span>
                   <div>
                     <a href="tel:+917826871718" class="fw-semibold text-neutral-950 h6 tw-mb-0">
@@ -1939,7 +1945,7 @@
                 </div>
                 <div class="d-flex align-items-start tw-gap-3">
                   <span class="tw-w-10 tw-h-10 bg-main-two-600 text-white d-flex align-items-center justify-content-center tw-text-5 rounded-circle flex-shrink-0">
-                    <img src="assets/images/icon/footer-icon2.png" decoding="async" loading="lazy" alt="icon" style="width: 20px;">
+                    <img src="assets/images/icon/footer-icon2.png" decoding="async" loading="lazy" alt="icon" style="width: 20px;" width="24" height="24">
                   </span>
                   <div>
                     <a href="mailto:mindwave18@gmail.com" class="fw-semibold text-neutral-950 h6 tw-mb-0">
@@ -1949,7 +1955,7 @@
                 </div>
                 <div class="d-flex align-items-start tw-gap-3">
                   <span class="tw-w-10 tw-h-10 bg-pink-600 text-white d-flex align-items-center justify-content-center tw-text-5 rounded-circle flex-shrink-0">
-                    <img src="assets/images/icon/footer-icon3.png" decoding="async" loading="lazy" alt="icon" style="width: 20px;">
+                    <img src="assets/images/icon/footer-icon3.png" decoding="async" loading="lazy" alt="icon" style="width: 20px;" width="24" height="24">
                   </span>
                   <div>
                     <span class="fw-medium text-neutral-950 h6 tw-mb-0">
@@ -1969,7 +1975,7 @@
     <div class="container">
       <div class="d-flex align-items-center tw-gap-3 flex-wrap justify-content-between tw-pt-14 tw-pb-6">
                 <!-- Left Side: Developed By -->
-        <span class="fw-normal tw-text-4 text-black order-2 order-lg-1">Proudly Developed & Designed by <a href="https://www.jodtech.in" target="_blank" class="fw-bold text-main-600 hover-text-black tw-duration-300">Jodtech Company</a></span>
+        <span class="fw-normal tw-text-4 text-black order-2 order-lg-1">Proudly Developed & Designed by <a href="https://www.jodtech.in" target="_blank" class="fw-bold text-main-600 hover-text-black tw-duration-300" rel="noopener">Jodtech Company</a></span>
         
         <!-- Center: Copyright -->
         <span class="fw-normal tw-text-4 text-black text-center order-3 order-lg-2">&copy; 2026 by Mind Wave special learning center all rights reserved</span>
