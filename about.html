@@ -17,6 +17,7 @@
   <link rel="icon" href="assets/images/logo/favicon.png" type="image/png">
   <!-- Bootstrap -->
   <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="preload" as="style" href="assets/css/bootstrap.min.css">
   <!-- swiper -->
   <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
   <!-- magnipic -->
@@ -29,6 +30,8 @@
   <link rel="stylesheet" href="assets/css/aos.css">
   <!-- Main css -->
   <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="preload" as="style" href="assets/css/main.css">
+  <link rel="preload" as="image" href="assets/images/bg/techtech.png" fetchpriority="high">
 </head>
 
 <body>
@@ -115,6 +118,8 @@
           <img
             src="assets/images/logo/logo1.png"
             alt="Logo"
+            width="320"
+            height="80"
             style="max-width: 320px; width: 100%; height: auto;"
           >
         </a>
@@ -1049,7 +1054,10 @@
 
 
     <!-- Jquery js -->
-<script src="assets/js/jquery-3.7.1.min.js" defer defer></script>
+<script src="assets/js/jquery-3.7.1.min.js" defer></script>
+  <link rel="preload" href="https://unpkg.com/@phosphor-icons/web@2.1.1/src/bold/Phosphor-Bold.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="https://unpkg.com/@phosphor-icons/web@2.1.1/src/regular/Phosphor.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="https://unpkg.com/@phosphor-icons/web@2.1.1/src/fill/Phosphor-Fill.woff2" as="font" type="font/woff2" crossorigin>
 <!-- phosphor Js -->
 <script src="assets/js/phosphor-icon.js" defer></script>
 <!-- Bootstrap Bundle Js -->
