@@ -365,9 +365,23 @@
             <div class="col-lg-8" data-aos="fade-up" data-aos-duration="600">
                 <article class="blog-details">
                     <!-- Featured Image / Placeholder Video -->
-                    <div class="tw-mb-8 d-flex justify-content-center">
-                        <iframe src="https://www.instagram.com/reel/CxRUyfFh7Ue/embed/"  frameborder="0" scrolling="no" allowtransparency="true"></iframe>
-                    </div>
+                    <style>
+.instagram-frame{
+    width: 100%;
+    max-width: 420px;
+    height: 750px;
+    border: none;
+}
+</style>
+
+<div class="tw-mb-8 d-flex justify-content-center">
+    <iframe 
+        class="instagram-frame"
+        src="https://www.instagram.com/reel/CxRUyfFh7Ue/embed/"
+        scrolling="no"
+        allowtransparency="true">
+    </iframe>
+</div>
 
                     <!-- Meta details -->
                     <div class="d-flex align-items-center tw-gap-5 flex-wrap tw-mb-6 border-bottom pb-4">
